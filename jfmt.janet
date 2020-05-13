@@ -4,5 +4,5 @@
   [& args]
   (if (= 1 (length args))
     (prin (fmt/format (file/read stdin :all)))
-    (each f (tuple/slice args 1 -1)
+    (each f (tuple/slice args 1)
       (fmt/format-file f))))
