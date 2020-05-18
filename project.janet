@@ -9,5 +9,5 @@
 
 (declare-executable
   :name "jfmt"
-  :entry "jfmt.janet")
-
+  :entry "jfmt.janet"
+  :install true)
